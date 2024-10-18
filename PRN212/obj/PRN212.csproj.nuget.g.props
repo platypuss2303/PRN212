@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\LENOVO\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\LENOVO\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSyncfusion_Shared_WPF Condition=" '$(PkgSyncfusion_Shared_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.shared.wpf\27.1.53</PkgSyncfusion_Shared_WPF>
+    <PkgSyncfusion_Tools_WPF Condition=" '$(PkgSyncfusion_Tools_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.tools.wpf\27.1.53</PkgSyncfusion_Tools_WPF>
+    <PkgSyncfusion_SfInput_WPF Condition=" '$(PkgSyncfusion_SfInput_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfinput.wpf\27.1.53</PkgSyncfusion_SfInput_WPF>
+    <PkgSyncfusion_SfBusyIndicator_WPF Condition=" '$(PkgSyncfusion_SfBusyIndicator_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfbusyindicator.wpf\27.1.53</PkgSyncfusion_SfBusyIndicator_WPF>
+    <PkgSyncfusion_SfScheduler_WPF Condition=" '$(PkgSyncfusion_SfScheduler_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfscheduler.wpf\27.1.53</PkgSyncfusion_SfScheduler_WPF>
+    <PkgSyncfusion_SfRichTextBoxAdv_WPF Condition=" '$(PkgSyncfusion_SfRichTextBoxAdv_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfrichtextboxadv.wpf\27.1.53</PkgSyncfusion_SfRichTextBoxAdv_WPF>
+    <PkgSyncfusion_SfRichTextRibbon_WPF Condition=" '$(PkgSyncfusion_SfRichTextRibbon_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfrichtextribbon.wpf\27.1.53</PkgSyncfusion_SfRichTextRibbon_WPF>
+    <PkgSyncfusion_SfRadialMenu_WPF Condition=" '$(PkgSyncfusion_SfRadialMenu_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfradialmenu.wpf\27.1.53</PkgSyncfusion_SfRadialMenu_WPF>
+    <PkgSyncfusion_SfProgressBar_WPF Condition=" '$(PkgSyncfusion_SfProgressBar_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfprogressbar.wpf\27.1.53</PkgSyncfusion_SfProgressBar_WPF>
+    <PkgSyncfusion_SfNavigationDrawer_WPF Condition=" '$(PkgSyncfusion_SfNavigationDrawer_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfnavigationdrawer.wpf\27.1.53</PkgSyncfusion_SfNavigationDrawer_WPF>
+    <PkgSyncfusion_SfMaps_WPF Condition=" '$(PkgSyncfusion_SfMaps_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfmaps.wpf\27.1.53</PkgSyncfusion_SfMaps_WPF>
+    <PkgSyncfusion_SfKanban_WPF Condition=" '$(PkgSyncfusion_SfKanban_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfkanban.wpf\27.1.53</PkgSyncfusion_SfKanban_WPF>
+    <PkgSyncfusion_SfImageEditor_WPF Condition=" '$(PkgSyncfusion_SfImageEditor_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfimageeditor.wpf\27.1.53</PkgSyncfusion_SfImageEditor_WPF>
+    <PkgSyncfusion_SfHubTile_WPF Condition=" '$(PkgSyncfusion_SfHubTile_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfhubtile.wpf\27.1.53</PkgSyncfusion_SfHubTile_WPF>
+    <PkgSyncfusion_SfHeatMap_WPF Condition=" '$(PkgSyncfusion_SfHeatMap_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfheatmap.wpf\27.1.53</PkgSyncfusion_SfHeatMap_WPF>
+    <PkgSyncfusion_SfGrid_WPF Condition=" '$(PkgSyncfusion_SfGrid_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfgrid.wpf\27.1.53</PkgSyncfusion_SfGrid_WPF>
+    <PkgSyncfusion_SfGauge_WPF Condition=" '$(PkgSyncfusion_SfGauge_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfgauge.wpf\27.1.53</PkgSyncfusion_SfGauge_WPF>
+    <PkgSyncfusion_SfDiagram_WPF Condition=" '$(PkgSyncfusion_SfDiagram_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfdiagram.wpf\27.1.53</PkgSyncfusion_SfDiagram_WPF>
+    <PkgSyncfusion_SfColorPalette_WPF Condition=" '$(PkgSyncfusion_SfColorPalette_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfcolorpalette.wpf\27.1.53</PkgSyncfusion_SfColorPalette_WPF>
+    <PkgSyncfusion_SfChart_WPF Condition=" '$(PkgSyncfusion_SfChart_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfchart.wpf\27.1.53</PkgSyncfusion_SfChart_WPF>
+    <PkgSyncfusion_SfBulletGraph_WPF Condition=" '$(PkgSyncfusion_SfBulletGraph_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfbulletgraph.wpf\27.1.53</PkgSyncfusion_SfBulletGraph_WPF>
+    <PkgSyncfusion_SfBarcode_WPF Condition=" '$(PkgSyncfusion_SfBarcode_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfbarcode.wpf\27.1.53</PkgSyncfusion_SfBarcode_WPF>
+    <PkgSyncfusion_SfAccordion_WPF Condition=" '$(PkgSyncfusion_SfAccordion_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfaccordion.wpf\27.1.53</PkgSyncfusion_SfAccordion_WPF>
+    <PkgSyncfusion_PropertyGrid_WPF Condition=" '$(PkgSyncfusion_PropertyGrid_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.propertygrid.wpf\27.1.53</PkgSyncfusion_PropertyGrid_WPF>
+    <PkgSyncfusion_PdfViewer_WPF Condition=" '$(PkgSyncfusion_PdfViewer_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.pdfviewer.wpf\27.1.53</PkgSyncfusion_PdfViewer_WPF>
+    <PkgSyncfusion_Grid_WPF Condition=" '$(PkgSyncfusion_Grid_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.grid.wpf\27.1.53</PkgSyncfusion_Grid_WPF>
+    <PkgSyncfusion_Gantt_WPF Condition=" '$(PkgSyncfusion_Gantt_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.gantt.wpf\27.1.53</PkgSyncfusion_Gantt_WPF>
+    <PkgSyncfusion_Edit_WPF Condition=" '$(PkgSyncfusion_Edit_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.edit.wpf\27.1.53</PkgSyncfusion_Edit_WPF>
+  </PropertyGroup>
+</Project>

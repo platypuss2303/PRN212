@@ -1,0 +1,1632 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MahApps.Metro.IconPacks/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.BootstrapIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.BoxIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.CircumIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.Codicons": "5.0.1",
+          "MahApps.Metro.IconPacks.Coolicons": "5.0.1",
+          "MahApps.Metro.IconPacks.Core": "5.0.1",
+          "MahApps.Metro.IconPacks.Entypo": "5.0.1",
+          "MahApps.Metro.IconPacks.EvaIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.FeatherIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.FileIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.FontAwesome": "5.0.1",
+          "MahApps.Metro.IconPacks.Fontaudio": "5.0.1",
+          "MahApps.Metro.IconPacks.Fontisto": "5.0.1",
+          "MahApps.Metro.IconPacks.ForkAwesome": "5.0.1",
+          "MahApps.Metro.IconPacks.GameIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.Ionicons": "5.0.1",
+          "MahApps.Metro.IconPacks.JamIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.Lucide": "5.0.1",
+          "MahApps.Metro.IconPacks.Material": "5.0.1",
+          "MahApps.Metro.IconPacks.MaterialDesign": "5.0.1",
+          "MahApps.Metro.IconPacks.MaterialLight": "5.0.1",
+          "MahApps.Metro.IconPacks.MemoryIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.Microns": "5.0.1",
+          "MahApps.Metro.IconPacks.Modern": "5.0.1",
+          "MahApps.Metro.IconPacks.Octicons": "5.0.1",
+          "MahApps.Metro.IconPacks.PhosphorIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.PicolIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.PixelartIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.RPGAwesome": "5.0.1",
+          "MahApps.Metro.IconPacks.RadixIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.RemixIcon": "5.0.1",
+          "MahApps.Metro.IconPacks.SimpleIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.Typicons": "5.0.1",
+          "MahApps.Metro.IconPacks.Unicons": "5.0.1",
+          "MahApps.Metro.IconPacks.VaadinIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.WeatherIcons": "5.0.1",
+          "MahApps.Metro.IconPacks.Zondicons": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.BootstrapIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BootstrapIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.BoxIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.BoxIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.CircumIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.CircumIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Codicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Codicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Coolicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Coolicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Core/5.0.1": {
+        "dependencies": {
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Entypo/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Entypo.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.EvaIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.EvaIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.FeatherIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FeatherIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.FileIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FileIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Fontaudio/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontaudio.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.FontAwesome/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.FontAwesome.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Fontisto/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Fontisto.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.ForkAwesome/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.ForkAwesome.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.GameIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.GameIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Ionicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Ionicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.JamIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.JamIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Lucide/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Lucide.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Material/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.MaterialDesign/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialDesign.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.MaterialLight/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MaterialLight.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.MemoryIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.MemoryIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Microns/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Microns.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Modern/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Modern.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Octicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Octicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.PhosphorIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PhosphorIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.PicolIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PicolIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.PixelartIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.PixelartIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.RadixIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RadixIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.RemixIcon/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RemixIcon.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.RPGAwesome/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.RPGAwesome.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.SimpleIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.SimpleIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Typicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Typicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Unicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Unicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.VaadinIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.VaadinIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.WeatherIcons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.WeatherIcons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Zondicons/5.0.1": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.0.1"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Zondicons.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Outlook/15.0.4797.1004": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Outlook.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4797.1003"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Syncfusion.Calculate.Base/27.1.53": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Calculate.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.Base/27.1.53": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Compression.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Data.WPF/27.1.53": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Data.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Wpf/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.OfficeChart.Base": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.DocIO.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Edit.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.Tools.WPF": "27.1.53",
+          "System.Reflection.MetadataLoadContext": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Edit.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Gantt.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.ProjIO.Base": "27.1.53",
+          "Syncfusion.SfGrid.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Gantt.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Grid.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Linq.Base": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Grid.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/27.1.53": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.GridCommon.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/27.1.53": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Linq.Base/27.1.53": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Linq.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Base/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.OfficeChart.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Wpf/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Pdf.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.PdfToImageConverter.WPF/27.1.53": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.PdfToImageConverter.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.PdfViewer.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Pdf.Wpf": "27.1.53",
+          "Syncfusion.PdfToImageConverter.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.PdfViewer.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Presentation.Wpf/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.OfficeChart.Base": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Presentation.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.ProjIO.Base/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.ProjIO.Base.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.PropertyGrid.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.SfInput.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.Tools.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.PropertyGrid.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfAccordion.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfAccordion.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfBarcode.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfBarcode.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfBulletGraph.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfBulletGraph.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfBusyIndicator.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfBusyIndicator.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfChart.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfChart.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfChromelessWindow.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfChromelessWindow.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfColorPalette.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.SfRadialMenu.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfColorPalette.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfDiagram.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfDiagram.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfGauge.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfGauge.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfGrid.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Data.WPF": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfGrid.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfHeatMap.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfHeatMap.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfHubTile.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfHubTile.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfImageEditor.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.Tools.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfImageEditor.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfInput.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfInput.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfKanban.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfKanban.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfMaps.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfMaps.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfNavigationDrawer.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfNavigationDrawer.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfProgressBar.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfProgressBar.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfRadialMenu.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfRichTextBoxAdv.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.DocIO.Wpf": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.OfficeChart.Base": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfRichTextBoxAdv.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfRichTextRibbon.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.DocIO.Wpf": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.OfficeChart.Base": "27.1.53",
+          "Syncfusion.SfRichTextBoxAdv.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.Tools.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfRichTextRibbon.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfScheduler.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.SfBusyIndicator.WPF": "27.1.53",
+          "Syncfusion.SfInput.WPF": "27.1.53",
+          "Syncfusion.SfSkinManager.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfScheduler.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfSkinManager.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Tools.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Reflection.Metadata/6.0.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Reflection.Metadata.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Reflection.MetadataLoadContext/6.0.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0",
+          "System.Reflection.Metadata": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Reflection.MetadataLoadContext.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Text.Json/8.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MahApps.Metro.IconPacks/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MhNRvOctXcX5CLez5ZoIdE2CcoIBFn+S1fOX9ZLezGoXOdwEMYACib0xSq9nL+SCFfpRwmeXfdkmgDcs6O0TsA==",
+      "path": "mahapps.metro.iconpacks/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.BootstrapIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2rDaFrFf2jF1FFQ3rVz040Da0TuFiwvpWdv0BzoLyvhtMz6tygKb2E+79viY8NNyZ9KWX7CO0IOyTTaxGk+mnA==",
+      "path": "mahapps.metro.iconpacks.bootstrapicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.bootstrapicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.BoxIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W523O99dYhy/Z/zOPqRs9GKtDINvGZxn01baiIwt1FxAqPdjf78c+DkuEe25gjZUebUNuc0Smg03yonT6FTgeA==",
+      "path": "mahapps.metro.iconpacks.boxicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.boxicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.CircumIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zZa3Y8i328ojH4X1dZ4a3h95f9XsDfVtKBb0Jo19ytUcDDF/vd9f9deeOTVQsvmpGXOf/VAkUFND/30BdNTXkg==",
+      "path": "mahapps.metro.iconpacks.circumicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.circumicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Codicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pj634N30mKoM2+8yzIaBGAaAane6iW3NY5AZHjb/SMzPf/VJSNWyiMKf2jFnSVIPg9FBaizK2Qojj0ZXvh14/A==",
+      "path": "mahapps.metro.iconpacks.codicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.codicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Coolicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FrQzdyWwZA235PExvGhLiSGFMD+4UCtKnvPoeU7WGUxeEIn+DDKmpbDT1XMvnBNCd9KCwtAb7f0H5+glzd0gxQ==",
+      "path": "mahapps.metro.iconpacks.coolicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.coolicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Core/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fw8zJ/cIyv5HnpNQ/ozMOi/4gA6bw/ahum7YkSVSLSSU0womy1wTunTyoKK4LiUT7oQhUGrTaReCmx4VyQtFtw==",
+      "path": "mahapps.metro.iconpacks.core/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.core.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Entypo/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SoyLN5UGYgf2X36gsAaF2BuJnw0YMSwjmvKOe/vOcqbho+6XBdwv5/7hB3uAEyHKS3pqvjjKyky+wPYsKAfV+A==",
+      "path": "mahapps.metro.iconpacks.entypo/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.entypo.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.EvaIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gdln9sjwJDjffkoO6fK6fVSOi5eahZFKmI5djBBIyRiNeQjvHlhX5i1X2zyDCbeC1Vk6UDfM8J1mqShxjNwjTg==",
+      "path": "mahapps.metro.iconpacks.evaicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.evaicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.FeatherIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-65azGAfocP5GRtWmCqp8Zf3lUK+HLXNw4u3xqZGDCt6hOMdPNpNl7d0rI3v77KnQYqvFxQDlT90PIINJ4GHhPQ==",
+      "path": "mahapps.metro.iconpacks.feathericons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.feathericons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.FileIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VRa4TVbkFqoAx0S0/3hm8R4lw/Px84KzFBIYD5QJlnZCWk3VqOUr6KiB2Tc3Gpwe553cO7X65T0DxikevJVyog==",
+      "path": "mahapps.metro.iconpacks.fileicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.fileicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Fontaudio/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oEeUSi1hTIbLVEHWRHTrmy0Tecn5YEk3fnjHrz2qxN9aU1ZYReitjGEEPdS1zuMB2ArLfNzre3DWNxgSfBzRRw==",
+      "path": "mahapps.metro.iconpacks.fontaudio/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.fontaudio.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.FontAwesome/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dz8v8c7dbCtTQVVsBM14uGeQN/j+IZ38jdpZMn0joRbFXrKJRkIq4olU1enVTOvyLaHslbADDy27M/v4QrqczA==",
+      "path": "mahapps.metro.iconpacks.fontawesome/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.fontawesome.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Fontisto/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q/8QZlVPGZ/M2wxqEVWHklX++NLH2OH6Cf7pnC6KfsDx6nqfNzxiIJgpMzhl39Y0GqvZjWb3rmQbN+QFcKoQEA==",
+      "path": "mahapps.metro.iconpacks.fontisto/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.fontisto.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.ForkAwesome/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oH6WU/fJLD+53hW705FaMSDdifBpU3aadQNdmhuPu4pF5TCB/H01BlcvIyamV1D5Fp5x9sY2mBTf8fX6vSaYw==",
+      "path": "mahapps.metro.iconpacks.forkawesome/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.forkawesome.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.GameIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f3Yo7o4ZdYiPK/FnwTyN3Gef2NunrOYeidmQcukEGgu/GzMrVx+zZw01JLzFSWnuqFFdhSHw8Yw9QW0m6kMM1A==",
+      "path": "mahapps.metro.iconpacks.gameicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.gameicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Ionicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2R7nkOh4eGSXmOhgKTq5z1c/Z9a0weZhTm+d6KmBLEfXfBAj7jbiQUX17x/9Cc84v5dZkwZoSABH4LkHhzdhxg==",
+      "path": "mahapps.metro.iconpacks.ionicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.ionicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.JamIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o6bqqDCX5MpRFFDs2eCpHGo++g4FfGlHomrEiS4+LLwscUXIioo4h/1YrccHhADR656Ww3KpjtKHLAGRduNPEw==",
+      "path": "mahapps.metro.iconpacks.jamicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.jamicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Lucide/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p3iywOsBPoRfbRqQtkCsVs9XAkq4awcJzlNlTvgdJGn53AzgUKjZVe8fzFY7I1AaKA6ef65RZ6npoQyWZNsLGQ==",
+      "path": "mahapps.metro.iconpacks.lucide/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.lucide.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Material/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WHJbIn804tRofDE6ZF+yQZcj/bB2Y2Iv34CM6vPD0WtC7TWxXQZVtBOoCRu4cEXlgJ/u5+tE9FTFeFRO5M4RVQ==",
+      "path": "mahapps.metro.iconpacks.material/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.material.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.MaterialDesign/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ombbzE3lVAUFHcy4qMYsE6+tN4EkeZ3SU6buqKvQ3JfBddO5S2M2XD4OuXFxjXoALRON4cEUq8fFxzWYKAkBWA==",
+      "path": "mahapps.metro.iconpacks.materialdesign/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.materialdesign.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.MaterialLight/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBWSKjaQQDqyEsYGXuaEt+k/XjRQdiQrV7o+zLPpeC7XhJVFr/FLnmqiB5gP5XUgZ6AQRdYAFQRHnbjWGLfvow==",
+      "path": "mahapps.metro.iconpacks.materiallight/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.materiallight.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.MemoryIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-36Hsw8onEmxBl4DQSRhiKiR/2DIg3VXu6OHrQjAr4K8RxwJFHKWXBks2xJdiQA5r3UdXysty2avV/M5kHo9FEA==",
+      "path": "mahapps.metro.iconpacks.memoryicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.memoryicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Microns/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OP6f6RWycmyDeK7Y7bW7B4vSWimdFmVRc7YVSWkxPb64snSROYey1l8w1gJCvw/D5y2P4XbONRivAYjUqdb4qQ==",
+      "path": "mahapps.metro.iconpacks.microns/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.microns.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Modern/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CATm2+WyyJhx7ijwKOMLlQRjJtbcZ0ybVZcwukRTr/UlxAt/OYsAunTVrBAg//7tg7xFCIvzdsR9UgIR0FxoVQ==",
+      "path": "mahapps.metro.iconpacks.modern/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.modern.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Octicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bnGyqQUEHqZBayufYsj1LCdY6d2YP3M6tTPQndywqEOqU62UQXU9YfrWHeXdlSoaGik4XTuC3FaGHiu/whrljg==",
+      "path": "mahapps.metro.iconpacks.octicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.octicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.PhosphorIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F21m/xjKNXQ+NosZs34dFZHOjTcp5UbW7ns4QqMVHCVoNdo1PLopksxh7wQnfVfBjsl+O3svS0QeQ0h/WEdkHQ==",
+      "path": "mahapps.metro.iconpacks.phosphoricons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.phosphoricons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.PicolIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7pCfuB6kAMNmAGCD5pkHM3iIdNcGmHLH/MAH428VSa1MlW6rp8wSbUOO2RBDXWA0ddEYGEE2EywM8IL/xeFjpQ==",
+      "path": "mahapps.metro.iconpacks.picolicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.picolicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.PixelartIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ryG0il0sE1AI5xx29e8Xv4bj5582AZgBqr0I3dRXuLtfZKBHHyWf8Yb5dpLqfImTiMD0z6+txXS57LkSWBA+Zg==",
+      "path": "mahapps.metro.iconpacks.pixelarticons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.pixelarticons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.RadixIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-74jp7EXmtvLF5JfuuyK4XPnwwBkwccAGmRs2KLaB2neOK9rrmyPi8/llfS813iZ43NW6mFhxReZNQvUtl4pDgA==",
+      "path": "mahapps.metro.iconpacks.radixicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.radixicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.RemixIcon/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0O0yWZU0JvoYFQEaH4zSNvo1U/vC3JoLuF9lVr6taBXayorVkq0E46CVRkEcZTQnnDryvsac0fpBeQNUPADs1A==",
+      "path": "mahapps.metro.iconpacks.remixicon/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.remixicon.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.RPGAwesome/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R+x/3VsOZAzKMduQzTs0aJ+e4lyRRXJ1ltA9UuQ7/FARSofA/nYvl+DW8ZsOjwT4yCDKdrOtPOB1bo9lTR+KfQ==",
+      "path": "mahapps.metro.iconpacks.rpgawesome/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.rpgawesome.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.SimpleIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4g2kJetuqVKhIi3FlAjGMQXRRz836BC26ooin1L9jGWTJIVZLE90/6J5xQhx0ZzVUvjpdhiCyA/L5lnTrAL6Q==",
+      "path": "mahapps.metro.iconpacks.simpleicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.simpleicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Typicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cwaXhvo+kKwsyhJfYnqgSd3IrCRmy61LM2PM6k9S9cdL/uhzwyCAqKfyXwnENtjMgHB+o/NHjXYcTJvCGJMzYw==",
+      "path": "mahapps.metro.iconpacks.typicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.typicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Unicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JcqOfMWSiWbGFjyEv0eAJ+6y5klhY9RQWs0X+OSe/db+im2VOQWWCQ/aB/HdHA/6BB1j97Xdten/6zCMCbAI/A==",
+      "path": "mahapps.metro.iconpacks.unicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.unicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.VaadinIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-huEfJevwafy6EOZ83O7AALu7NeaU13RRGZTMgr2g1PgscBNc1qWtHbz9r9moJZoGkVPll9+xHulSHF29eQE1kw==",
+      "path": "mahapps.metro.iconpacks.vaadinicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.vaadinicons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.WeatherIcons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vEfL7gPbeIGPIqVlu4xqYJQH5xDN912ZMkmdPODUuSov5XQcirMVz/+HBs553l/B7yTxHi+RY9VrczBK3cjsMA==",
+      "path": "mahapps.metro.iconpacks.weathericons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.weathericons.5.0.1.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Zondicons/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fBvL6twG+wp1bIC0XUiGI93j4qr8RmIntv8tJ0mhVEVquASxqjbuZlsMNT78U8F86nTnNrVuw/e4qFOROUQHHw==",
+      "path": "mahapps.metro.iconpacks.zondicons/5.0.1",
+      "hashPath": "mahapps.metro.iconpacks.zondicons.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Office.Interop.Outlook/15.0.4797.1004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-17tdFXg/TGnbmSC9YNkIrB6P3vTSemOMI/TaUaZWQmRE1dMjHIVmBPffQhXasH/te4weHiFk8EEXUCi/NsGbuA==",
+      "path": "microsoft.office.interop.outlook/15.0.4797.1004",
+      "hashPath": "microsoft.office.interop.outlook.15.0.4797.1004.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Calculate.Base/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DGb1tdB7Ifo1Re+FDvj+OsxS13+rwmhv1dQ3zVPSgybBOgPrYdwoOxRuj76nCxWDq/gSmETWcnZGQ7iuFsjcPg==",
+      "path": "syncfusion.calculate.base/27.1.53",
+      "hashPath": "syncfusion.calculate.base.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Base/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-caH3EkViNzRZzT3lVOyz+nVzlCfFUloWRinj98W/EkHT9y4wnqaJYAtLzRGTVOuLdkFWG4ziiw6b2NIrRBqR1A==",
+      "path": "syncfusion.compression.base/27.1.53",
+      "hashPath": "syncfusion.compression.base.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Data.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PJXrJUwQs55VNaEJu+rwgDL2clslywtq5JRxK7cRxQ3/cUUwFM412q+E/XjFvlz9BUG4h32Ar91/E7VN/PC/bg==",
+      "path": "syncfusion.data.wpf/27.1.53",
+      "hashPath": "syncfusion.data.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.DocIO.Wpf/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oNK4nchCZFmTzEgqyogrEm1Vy8nH1vHpG1soduw8+aLhhqjF9Lz/Q8VXCQJNyoKan4D850go1N1RBGv0O4Gxbw==",
+      "path": "syncfusion.docio.wpf/27.1.53",
+      "hashPath": "syncfusion.docio.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Edit.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH6crcqrnxUS/U9SKF09cTOn7vuggEB/+Y/HvcGuPMo3KspvoIT2iHsGxMCz24Dt5Up6T8lFAWqLO7+g/58KeA==",
+      "path": "syncfusion.edit.wpf/27.1.53",
+      "hashPath": "syncfusion.edit.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Gantt.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6soEH3OYJrh/qR7gM1uSfUZ7jSkJ3uKs9HZdJMH/len2VH0PrFPbENmH7IjbVni1f0yjkhI03UB/Y98MJPVB+A==",
+      "path": "syncfusion.gantt.wpf/27.1.53",
+      "hashPath": "syncfusion.gantt.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Grid.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-afQbucHloMVnJ4gpHCVtankGF40gTSiHX0a63fCZMJym61q+/A41VtxdfxyCpnAU6VDcozI8C/NctzLIegswJw==",
+      "path": "syncfusion.grid.wpf/27.1.53",
+      "hashPath": "syncfusion.grid.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.GridCommon.Wpf/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+BNrF1BUZq6cu6dtgapk9t/bhoa2vAvIM0dmjmF8EVgqzAHaIHpv629lyxZrx9d6tPkbka1VgMM7kavxkqHGsw==",
+      "path": "syncfusion.gridcommon.wpf/27.1.53",
+      "hashPath": "syncfusion.gridcommon.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FrSaIsKUjfMlbE66F5/f+S2B929Xkhh6QuRpDCKozOMBxSKet/pXMniITf6IGkciirWzyZ58xHAxArrDMK4rDA==",
+      "path": "syncfusion.licensing/27.1.53",
+      "hashPath": "syncfusion.licensing.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Linq.Base/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3sfXwL6FCvZVyORG+j3kbVHJm5xsFrmEDARMM0QtIHwwTHxFoC4xbnhQH3dMKbus8OOedfCSmwgvuRwnbFF9XA==",
+      "path": "syncfusion.linq.base/27.1.53",
+      "hashPath": "syncfusion.linq.base.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Base/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5GDesSMnKar1tKXR8Ynnu/O5gB6eV5P2+Zygn2V6FNvY+cyAYaTmgtgTvDDXdYkAynKVhLf3rSQZsRBAjy4DtA==",
+      "path": "syncfusion.officechart.base/27.1.53",
+      "hashPath": "syncfusion.officechart.base.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Wpf/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ql+UeHifAS89b0hOrFqZvSiZknUi/o7PakaNrSOOUCOhrnQwn9ecWv1cHKVi9yQh2KpLHFQ6kK9dR5OO8ASw1Q==",
+      "path": "syncfusion.pdf.wpf/27.1.53",
+      "hashPath": "syncfusion.pdf.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.PdfToImageConverter.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cRonYiKe2HOpaiFeU5BdCQNe5PeRGwgDGZqMrMq+BXahLd9Hk5J6acczs9AMmxlwdaYUKYZxOVSqvZKOrd/D0g==",
+      "path": "syncfusion.pdftoimageconverter.wpf/27.1.53",
+      "hashPath": "syncfusion.pdftoimageconverter.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.PdfViewer.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0WXH1oGuOWE7JZL2Hu5BphIGSTHSO+1hENefZQmXm37WdPnXUrIU91KrfNoB7XD/wu9xfmOs38ppQnw+kAxCQ==",
+      "path": "syncfusion.pdfviewer.wpf/27.1.53",
+      "hashPath": "syncfusion.pdfviewer.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Presentation.Wpf/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OJqWcY423dsWDHgCYkHapJVnojvJTMu04d3EA5HBYuSlpN/6zskSX41urHB4zLUepwASBDV7m9j5uvrpXucvPQ==",
+      "path": "syncfusion.presentation.wpf/27.1.53",
+      "hashPath": "syncfusion.presentation.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.ProjIO.Base/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zWKKUrtBzJtSj4e1IB/WqaJ2P6JHlyaZ6Elu2czHFgBG744r68zRlyHBLw+0hM6/dOmJvs3g9MncOFC1AKgDvg==",
+      "path": "syncfusion.projio.base/27.1.53",
+      "hashPath": "syncfusion.projio.base.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.PropertyGrid.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WATTXxc9ayCJLqVNh/jjGSycS4Gcx37wCjfI5nzNiFyZ61guVqFHze8ex2tIVtSjvp68I9J0JpzfyydYR0KfWg==",
+      "path": "syncfusion.propertygrid.wpf/27.1.53",
+      "hashPath": "syncfusion.propertygrid.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfAccordion.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4/TbE0B1yDvUbm2ZhTdxNbHSe6T6da8urKWBOQt4jWt51qAcvTlD0Rd5B9rDhQcGbUgA7UOZ2+4oLBGZwASYwA==",
+      "path": "syncfusion.sfaccordion.wpf/27.1.53",
+      "hashPath": "syncfusion.sfaccordion.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfBarcode.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BmeM8Xdt1EIubHypAkTubvdZuyaih+dbhtTXbtDPdpuJavSJ82/JWoUlgb8hiYIokVU74z0UaLv7r12Z6rMKcw==",
+      "path": "syncfusion.sfbarcode.wpf/27.1.53",
+      "hashPath": "syncfusion.sfbarcode.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfBulletGraph.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jG1Wck/4qIaqSxzE5TzHMy7pvZFf/Wskt1LgNS28g8k8Lfsd9ObtbmFNbwPInOnpKlVAZlG+f4c/JRQOq7JZUw==",
+      "path": "syncfusion.sfbulletgraph.wpf/27.1.53",
+      "hashPath": "syncfusion.sfbulletgraph.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfBusyIndicator.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pxtBdi/7Li3gxeJOfGQuSsRGxE1G1qVDKfTGOGE5hnxmkLNyuVAS1Ge50byPIaak1Uk9beegBd5xh4a1SMIRFg==",
+      "path": "syncfusion.sfbusyindicator.wpf/27.1.53",
+      "hashPath": "syncfusion.sfbusyindicator.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfChart.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lz0LfqFTOvsdGW2LqntNfoOYFNit6wYuHdcHlfdcG+rKle832ul9j2wxHLtyVQf+DjetmeZagaUtLPLzUCj2rA==",
+      "path": "syncfusion.sfchart.wpf/27.1.53",
+      "hashPath": "syncfusion.sfchart.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfChromelessWindow.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qw+oLYPmn+9Xv6bOTrhuzzB0+eKH7ITIOGHJjRsGsYACQKiwlcbyQstfzUE2ZIUgGHFtdItYEy6OOK9UzpGb3g==",
+      "path": "syncfusion.sfchromelesswindow.wpf/27.1.53",
+      "hashPath": "syncfusion.sfchromelesswindow.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfColorPalette.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gGgwoWzqRCVZJU5Zeo95fuldKr28K65L9UpPYTAjDp+mgHDUBlCgNN8YWfEqCyKccauAf1SV0Hj1zvPM70OG+w==",
+      "path": "syncfusion.sfcolorpalette.wpf/27.1.53",
+      "hashPath": "syncfusion.sfcolorpalette.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfDiagram.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X9eoX+7405Vpf0CXMVOyf8anplcSJ6yM8W5+omHNJcrLNa40NdYYcw7hAHhgglX8TTBKF+DoTu2FV2LUUjNIdA==",
+      "path": "syncfusion.sfdiagram.wpf/27.1.53",
+      "hashPath": "syncfusion.sfdiagram.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfGauge.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i5CznXiBNHkmXmZOfWGfY6iK65IUikFJZmRj8c5wWEGZvr9lpDxjBjURmCvPKe0gRFlRh3GIpySDTwMKiW4YVw==",
+      "path": "syncfusion.sfgauge.wpf/27.1.53",
+      "hashPath": "syncfusion.sfgauge.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfGrid.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/AZp3h1sgJDA0mhfOuix5VWZQ4E2KHaWEBi/z3e45jIao33h1M7DwAQKDj402QAZK4hTnBJLNbOoftuD0tcTwA==",
+      "path": "syncfusion.sfgrid.wpf/27.1.53",
+      "hashPath": "syncfusion.sfgrid.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfHeatMap.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pb2kfd0BOMKjdbUDquIReXCc6uEgyBekz/DABeA1xjt+tgEfBkFARmiHzp56JlFkbSQxHaFpxXN9fOe5h1IFg==",
+      "path": "syncfusion.sfheatmap.wpf/27.1.53",
+      "hashPath": "syncfusion.sfheatmap.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfHubTile.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wuLKLgH9p9nSOzNaMJuG87DJQkFlGZWChgMqR+4a3+50dIsl5+oIW4joj+lEalpvUDjz8EJ2q9OJrIKZ/Q+xfQ==",
+      "path": "syncfusion.sfhubtile.wpf/27.1.53",
+      "hashPath": "syncfusion.sfhubtile.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfImageEditor.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8BeZaNYpHnK93lqi6Qi1BauB5HYh4DhxPcFeZn1H/6HSx4klTUhc3CKO4a5WfRfEpfgElRUhWT79602Dh/KAGQ==",
+      "path": "syncfusion.sfimageeditor.wpf/27.1.53",
+      "hashPath": "syncfusion.sfimageeditor.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfInput.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hwR1m2k9XDedeK/hbIN0/3/IP6l0ilxEnqwJj8993uHK2Gx/kUcTsJrjkJolGQw6gtLqVWTNzX83SyaAulR5Iw==",
+      "path": "syncfusion.sfinput.wpf/27.1.53",
+      "hashPath": "syncfusion.sfinput.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfKanban.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3g9utZDOxgLsl9LGd9xmdU/vAUFu0DkNWd5bV+uQmnsjRf3OKmbje0N+hLv+cl8rki8n7iZAJDGMYTpoFRaVNQ==",
+      "path": "syncfusion.sfkanban.wpf/27.1.53",
+      "hashPath": "syncfusion.sfkanban.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfMaps.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Uy830dJ5Vben2ooDEuv1lbHpDUWxGKIF5vblsHcGN7ebDYp7ntl/2NTpqcZbT7Fo0lKX4wBnA5XfiL6/XNItvg==",
+      "path": "syncfusion.sfmaps.wpf/27.1.53",
+      "hashPath": "syncfusion.sfmaps.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfNavigationDrawer.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NG2r4JxBcx02Euo7SCTwUr8P602gW9dhUtYyFy7m3Zm8tSbqNrvGfhqaL/tT9XSKbO3GoMUam2YKk2vsx8zFkg==",
+      "path": "syncfusion.sfnavigationdrawer.wpf/27.1.53",
+      "hashPath": "syncfusion.sfnavigationdrawer.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfProgressBar.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SM8GxsfP7IWXqXZBoMMH90QZzoWR1WubXQ0CK2wS7H7wu+r7kvSAHnmOwFYQkcYITssR6K9NjVkqb0wfxKGpiQ==",
+      "path": "syncfusion.sfprogressbar.wpf/27.1.53",
+      "hashPath": "syncfusion.sfprogressbar.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfRadialMenu.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kcC+zbrJF0rAMuRMc2CtXeMmYtncVrQvPJWzxN5qU/AoDme9ARNHmCYi3mBbhFGsF+IrSlhT4wWI5sqRobGeQA==",
+      "path": "syncfusion.sfradialmenu.wpf/27.1.53",
+      "hashPath": "syncfusion.sfradialmenu.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfRichTextBoxAdv.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5U/6qE+g7ZO0LnR/s7/NQ69qJgtSngYQmirzxty44IGmrUu6tvkremIGmCMn8rus9jPccuzZX5ttJRwvd15NPA==",
+      "path": "syncfusion.sfrichtextboxadv.wpf/27.1.53",
+      "hashPath": "syncfusion.sfrichtextboxadv.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfRichTextRibbon.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2w4ZxJx3zQzIBDveMDsMPTl35dBk6W1nu3wwMQYJxBCe5P7MiDk0wfVtiapE0OaxHlkLVgnRjZx3RBnI/QjVqw==",
+      "path": "syncfusion.sfrichtextribbon.wpf/27.1.53",
+      "hashPath": "syncfusion.sfrichtextribbon.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfScheduler.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sPEZv7/MaFZcRQyuRWhNtD2pcV+cLqShUULcT0HHB5FidbfVbrayaXsaWhFzV/1sAHFhZzON3X9tZLN+cIe6Q==",
+      "path": "syncfusion.sfscheduler.wpf/27.1.53",
+      "hashPath": "syncfusion.sfscheduler.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfSkinManager.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fNKE4PL+2hWUOnLWAMWijFGjIgQZDI3z6INzMlOv8g1Y53W8EOTBOUkiltBmu90vqmp6czeHWOtna18P7CII+g==",
+      "path": "syncfusion.sfskinmanager.wpf/27.1.53",
+      "hashPath": "syncfusion.sfskinmanager.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZP5RiTDNkJ95xleDZFzULsNX0r0nyDCOTdoYTs84VpGBNDvp+23kVJ/dGYHAFC6aXE4XYWF/TVni9yT4s/eAMQ==",
+      "path": "syncfusion.shared.wpf/27.1.53",
+      "hashPath": "syncfusion.shared.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.Tools.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bzXBY5xtlkMWVF+DVX0IYRwbM9Rst+tbFah/01j5oWvZSWTZUTa6QylsndO7l/IDlVC1CMs76L4/afYuyQDNtQ==",
+      "path": "syncfusion.tools.wpf/27.1.53",
+      "hashPath": "syncfusion.tools.wpf.27.1.53.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sffDOcex1C3HO5kDolOYcWXTwRpZY/LvJujM6SMjn63fWMJWchYAAmkoAJXlbpZ5yf4d+KMgxd+LeETa4gD9sQ==",
+      "path": "system.reflection.metadata/6.0.0",
+      "hashPath": "system.reflection.metadata.6.0.0.nupkg.sha512"
+    },
+    "System.Reflection.MetadataLoadContext/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SuK8qTHbmG3PToLo1TEq8YSfY31FiKhASBmjozUTAleDgiX4H2X4jm0VPFb+K2soSSmYPyHTpHp35TctfNtDzQ==",
+      "path": "system.reflection.metadataloadcontext/6.0.0",
+      "hashPath": "system.reflection.metadataloadcontext.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
+    }
+  }
+}
