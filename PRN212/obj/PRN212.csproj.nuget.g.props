@@ -12,13 +12,21 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\LENOVO\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.winforms.designer.sdk\1.6.0\build\netcoreapp3.1\Microsoft.WinForms.Designer.SDK.props" Condition="Exists('$(NuGetPackageRoot)microsoft.winforms.designer.sdk\1.6.0\build\netcoreapp3.1\Microsoft.WinForms.Designer.SDK.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgSyncfusion_Shared_WPF Condition=" '$(PkgSyncfusion_Shared_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.shared.wpf\27.1.53</PkgSyncfusion_Shared_WPF>
     <PkgSyncfusion_Tools_WPF Condition=" '$(PkgSyncfusion_Tools_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.tools.wpf\27.1.53</PkgSyncfusion_Tools_WPF>
+    <PkgSyncfusion_Shared_Base Condition=" '$(PkgSyncfusion_Shared_Base)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.shared.base\27.1.53</PkgSyncfusion_Shared_Base>
+    <PkgSyncfusion_SfBusyIndicator_WPF Condition=" '$(PkgSyncfusion_SfBusyIndicator_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfbusyindicator.wpf\27.1.53</PkgSyncfusion_SfBusyIndicator_WPF>
+    <PkgSyncfusion_SfTreeView_WPF Condition=" '$(PkgSyncfusion_SfTreeView_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sftreeview.wpf\27.1.53</PkgSyncfusion_SfTreeView_WPF>
+    <PkgSyncfusion_SfTreeNavigator_WPF Condition=" '$(PkgSyncfusion_SfTreeNavigator_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sftreenavigator.wpf\27.1.53</PkgSyncfusion_SfTreeNavigator_WPF>
+    <PkgSyncfusion_SfTreeMap_WPF Condition=" '$(PkgSyncfusion_SfTreeMap_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sftreemap.wpf\27.1.53</PkgSyncfusion_SfTreeMap_WPF>
+    <PkgSyncfusion_SfTextInputLayout_WPF Condition=" '$(PkgSyncfusion_SfTextInputLayout_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sftextinputlayout.wpf\27.1.53</PkgSyncfusion_SfTextInputLayout_WPF>
     <PkgSyncfusion_SfSpreadsheet_WPF Condition=" '$(PkgSyncfusion_SfSpreadsheet_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfspreadsheet.wpf\27.1.53</PkgSyncfusion_SfSpreadsheet_WPF>
     <PkgSyncfusion_SfSmithChart_WPF Condition=" '$(PkgSyncfusion_SfSmithChart_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfsmithchart.wpf\27.1.53</PkgSyncfusion_SfSmithChart_WPF>
     <PkgSyncfusion_SfInput_WPF Condition=" '$(PkgSyncfusion_SfInput_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfinput.wpf\27.1.53</PkgSyncfusion_SfInput_WPF>
-    <PkgSyncfusion_SfBusyIndicator_WPF Condition=" '$(PkgSyncfusion_SfBusyIndicator_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfbusyindicator.wpf\27.1.53</PkgSyncfusion_SfBusyIndicator_WPF>
     <PkgSyncfusion_SfScheduler_WPF Condition=" '$(PkgSyncfusion_SfScheduler_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfscheduler.wpf\27.1.53</PkgSyncfusion_SfScheduler_WPF>
     <PkgSyncfusion_SfRichTextBoxAdv_WPF Condition=" '$(PkgSyncfusion_SfRichTextBoxAdv_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfrichtextboxadv.wpf\27.1.53</PkgSyncfusion_SfRichTextBoxAdv_WPF>
     <PkgSyncfusion_SfRichTextRibbon_WPF Condition=" '$(PkgSyncfusion_SfRichTextRibbon_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfrichtextribbon.wpf\27.1.53</PkgSyncfusion_SfRichTextRibbon_WPF>

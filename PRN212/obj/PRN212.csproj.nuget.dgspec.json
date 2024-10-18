@@ -205,6 +205,154 @@
             "Syncfusion.SfSpreadsheet.WPF": {
               "target": "Package",
               "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTextInputLayout.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTreeMap.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTreeNavigator.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTreeView.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Shared.Base": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Shared.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Blend.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.FluentDark.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.FluentLight.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Lime.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialDark.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialDarkBlue.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialLight.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialLightBlue.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Metro.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2010Blue.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2010Silver.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2013DarkGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2013LightGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2013White.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2016Colorful.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2016DarkGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2016White.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019Black.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019Colorful.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019DarkGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019HighContrast.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019White.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office365.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Saffron.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.SystemTheme.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.VisualStudio2013.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.VisualStudio2015.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Windows11Dark.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Windows11Light.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Tools.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.XlsIO.Wpf": {
+              "target": "Package",
+              "version": "[27.1.53, )"
             }
           },
           "imports": [
