@@ -193,6 +193,18 @@
             "Syncfusion.SfSkinManager.WPF": {
               "target": "Package",
               "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSmithChart.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSpellChecker.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSpreadsheet.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
             }
           },
           "imports": [

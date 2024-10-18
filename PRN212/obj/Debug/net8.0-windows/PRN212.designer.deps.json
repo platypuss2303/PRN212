@@ -709,6 +709,20 @@
           }
         }
       },
+      "Syncfusion.SfCellGrid.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.SfGridCommon.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.XlsIO.Wpf": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfCellGrid.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
       "Syncfusion.SfChart.WPF/27.1.53": {
         "dependencies": {
           "Syncfusion.Licensing": "27.1.53"
@@ -776,6 +790,17 @@
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.SfGrid.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfGridCommon.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfGridCommon.WPF.dll": {
             "assemblyVersion": "27.1.53.0",
             "fileVersion": "27.1.53.0"
           }
@@ -943,12 +968,65 @@
           }
         }
       },
+      "Syncfusion.SfSmithChart.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfSmithChart.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfSpellChecker.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.SpellChecker.Base": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfSpellChecker.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SfSpreadsheet.WPF/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53",
+          "Syncfusion.SfCellGrid.WPF": "27.1.53",
+          "Syncfusion.SfGridCommon.WPF": "27.1.53",
+          "Syncfusion.Shared.WPF": "27.1.53",
+          "Syncfusion.Tools.WPF": "27.1.53",
+          "Syncfusion.XlsIO.Wpf": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SfSpreadsheet.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
       "Syncfusion.Shared.WPF/27.1.53": {
         "dependencies": {
           "Syncfusion.Licensing": "27.1.53"
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.SpellChecker.Base/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.SpellChecker.Base.dll": {
             "assemblyVersion": "27.1.53.0",
             "fileVersion": "27.1.53.0"
           }
@@ -961,6 +1039,18 @@
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.Tools.WPF.dll": {
+            "assemblyVersion": "27.1.53.0",
+            "fileVersion": "27.1.53.0"
+          }
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/27.1.53": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "27.1.53",
+          "Syncfusion.Licensing": "27.1.53"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.XlsIO.Base.dll": {
             "assemblyVersion": "27.1.53.0",
             "fileVersion": "27.1.53.0"
           }
@@ -1446,6 +1536,13 @@
       "path": "syncfusion.sfbusyindicator.wpf/27.1.53",
       "hashPath": "syncfusion.sfbusyindicator.wpf.27.1.53.nupkg.sha512"
     },
+    "Syncfusion.SfCellGrid.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uahOrBI3o5jBhepFUSd6F/PXhXK7a4OI6ZH802YORPTBMW37ZjKVjshWMWpY3UzUsvql2mhONNBY6K7hfnOedQ==",
+      "path": "syncfusion.sfcellgrid.wpf/27.1.53",
+      "hashPath": "syncfusion.sfcellgrid.wpf.27.1.53.nupkg.sha512"
+    },
     "Syncfusion.SfChart.WPF/27.1.53": {
       "type": "package",
       "serviceable": true,
@@ -1487,6 +1584,13 @@
       "sha512": "sha512-/AZp3h1sgJDA0mhfOuix5VWZQ4E2KHaWEBi/z3e45jIao33h1M7DwAQKDj402QAZK4hTnBJLNbOoftuD0tcTwA==",
       "path": "syncfusion.sfgrid.wpf/27.1.53",
       "hashPath": "syncfusion.sfgrid.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfGridCommon.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7stsAL96m9h0IZMbfa6hyp93SKvYt4WaXrjVT19mxais9UVMCiUfi4HaFBAo5l4fbuIOdXbRE5sWLZHv3pY+rw==",
+      "path": "syncfusion.sfgridcommon.wpf/27.1.53",
+      "hashPath": "syncfusion.sfgridcommon.wpf.27.1.53.nupkg.sha512"
     },
     "Syncfusion.SfHeatMap.WPF/27.1.53": {
       "type": "package",
@@ -1579,6 +1683,27 @@
       "path": "syncfusion.sfskinmanager.wpf/27.1.53",
       "hashPath": "syncfusion.sfskinmanager.wpf.27.1.53.nupkg.sha512"
     },
+    "Syncfusion.SfSmithChart.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrdQfwEFwivEadb5DF7oDaLE17h4HBieRkYsgsbRV9NIATmxGhDuB3tGyHUm/IhWz2oyE3cYGUSLZx2w9DH2lg==",
+      "path": "syncfusion.sfsmithchart.wpf/27.1.53",
+      "hashPath": "syncfusion.sfsmithchart.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfSpellChecker.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0+rj7TRA/kCpqBTVcBMJaYwaK43m0bIK0sP48H+oG8ynHlB7/jrRV70BaTlcNxzMkYFzwiR1NlwA1tAYH+4PjA==",
+      "path": "syncfusion.sfspellchecker.wpf/27.1.53",
+      "hashPath": "syncfusion.sfspellchecker.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.SfSpreadsheet.WPF/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ShmNuDv8+cGH6zzSWWeOzRxj79gTErW0iWnjNgozCfa2fg9YJzs0vN/Pvz03zR5iyRPB0m+KTvOrldM4TejppQ==",
+      "path": "syncfusion.sfspreadsheet.wpf/27.1.53",
+      "hashPath": "syncfusion.sfspreadsheet.wpf.27.1.53.nupkg.sha512"
+    },
     "Syncfusion.Shared.WPF/27.1.53": {
       "type": "package",
       "serviceable": true,
@@ -1586,12 +1711,26 @@
       "path": "syncfusion.shared.wpf/27.1.53",
       "hashPath": "syncfusion.shared.wpf.27.1.53.nupkg.sha512"
     },
+    "Syncfusion.SpellChecker.Base/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3rLSWjahvFO5wYMcCt9/FwQeRIlAMZItYOLbMJwLIGG/W2XLuTjcqkiWYvT90bbzytDOf7QlVE9JuofkMluZRg==",
+      "path": "syncfusion.spellchecker.base/27.1.53",
+      "hashPath": "syncfusion.spellchecker.base.27.1.53.nupkg.sha512"
+    },
     "Syncfusion.Tools.WPF/27.1.53": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-bzXBY5xtlkMWVF+DVX0IYRwbM9Rst+tbFah/01j5oWvZSWTZUTa6QylsndO7l/IDlVC1CMs76L4/afYuyQDNtQ==",
       "path": "syncfusion.tools.wpf/27.1.53",
       "hashPath": "syncfusion.tools.wpf.27.1.53.nupkg.sha512"
+    },
+    "Syncfusion.XlsIO.Wpf/27.1.53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nGC2OTfDWvZxZj9EmIn29Mfzy8T5Yryq0nAh4d40RQuO4s+cmXe3gXzfQdc9DN9RBPtN1KykaDLDzMOEHGxtag==",
+      "path": "syncfusion.xlsio.wpf/27.1.53",
+      "hashPath": "syncfusion.xlsio.wpf.27.1.53.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",

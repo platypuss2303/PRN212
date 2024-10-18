@@ -15,6 +15,8 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgSyncfusion_Shared_WPF Condition=" '$(PkgSyncfusion_Shared_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.shared.wpf\27.1.53</PkgSyncfusion_Shared_WPF>
     <PkgSyncfusion_Tools_WPF Condition=" '$(PkgSyncfusion_Tools_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.tools.wpf\27.1.53</PkgSyncfusion_Tools_WPF>
+    <PkgSyncfusion_SfSpreadsheet_WPF Condition=" '$(PkgSyncfusion_SfSpreadsheet_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfspreadsheet.wpf\27.1.53</PkgSyncfusion_SfSpreadsheet_WPF>
+    <PkgSyncfusion_SfSmithChart_WPF Condition=" '$(PkgSyncfusion_SfSmithChart_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfsmithchart.wpf\27.1.53</PkgSyncfusion_SfSmithChart_WPF>
     <PkgSyncfusion_SfInput_WPF Condition=" '$(PkgSyncfusion_SfInput_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfinput.wpf\27.1.53</PkgSyncfusion_SfInput_WPF>
     <PkgSyncfusion_SfBusyIndicator_WPF Condition=" '$(PkgSyncfusion_SfBusyIndicator_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfbusyindicator.wpf\27.1.53</PkgSyncfusion_SfBusyIndicator_WPF>
     <PkgSyncfusion_SfScheduler_WPF Condition=" '$(PkgSyncfusion_SfScheduler_WPF)' == '' ">C:\Users\LENOVO\.nuget\packages\syncfusion.sfscheduler.wpf\27.1.53</PkgSyncfusion_SfScheduler_WPF>
