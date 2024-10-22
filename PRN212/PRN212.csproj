@@ -9,14 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Help page\" />
-    <Folder Include="Authentication page\" />
-    <Folder Include="Calendar Page\" />
-    <Folder Include="Home\" />
-    <Folder Include="Customize Page\" />
+    <COMReference Include="Microsoft.Office.Core">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>8</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>2df8d04c-5bfa-101b-bde5-00aa0044de52</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="SaveData\" />
-    <Folder Include="Tasks page\" />
-    <Folder Include="Settings page\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -97,6 +102,16 @@
     <PackageReference Include="Syncfusion.Themes.Windows11Light.WPF" Version="27.1.53" />
     <PackageReference Include="Syncfusion.Tools.WPF" Version="27.1.53" />
     <PackageReference Include="Syncfusion.XlsIO.Wpf" Version="27.1.53" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PRN212.BLL\PRN212.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\Lab1 - PRN\PRN212\PRN212\App.xaml
-31132835086
+22-653384015
 3-679413978
-650400647
-3301766858863
-MainWindow.xaml;Themes\Dark.xaml;Themes\DarkGreen.xaml;
+16-1442169104
+375-1309247278
+Authentication page\LoginWindow.xaml;Authentication page\RegisterWindow.xaml;Calendar Page\CalendarWindow.xaml;Customize Page\CustomizeWindow.xaml;Help page\HelperWindow.xaml;Home\AddTaskWindow.xaml;Home\HomeWindow.xaml;MainWindow.xaml;Settings page\SettingsWindow.xaml;Tasks page\TaskWindow.xaml;Themes\Dark.xaml;Themes\DarkGreen.xaml;Themes\DarkORANGE.xaml;Themes\DarkPURPLE.xaml;Themes\DarkRED.xaml;Themes\DarkYELLOW.xaml;Themes\Light.xaml;Themes\LightGREEN.xaml;Themes\LightORANGE.xaml;Themes\LightPURPLE.xaml;Themes\LightRED.xaml;Themes\LightYELLOW.xaml;
 
 False
 

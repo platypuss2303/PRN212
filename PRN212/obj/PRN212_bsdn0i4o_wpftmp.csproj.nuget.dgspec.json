@@ -1,0 +1,512 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Lab1 - PRN\\PRN212\\PRN212\\PRN212.csproj": {}
+  },
+  "projects": {
+    "E:\\Lab1 - PRN\\PRN212\\PRN212.BLL\\PRN212.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lab1 - PRN\\PRN212\\PRN212.BLL\\PRN212.BLL.csproj",
+        "projectName": "PRN212.BLL",
+        "projectPath": "E:\\Lab1 - PRN\\PRN212\\PRN212.BLL\\PRN212.BLL.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\Lab1 - PRN\\PRN212\\PRN212.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Lab1 - PRN\\PRN212\\PRN212.DAL\\PRN212.DAL.csproj": {
+                "projectPath": "E:\\Lab1 - PRN\\PRN212\\PRN212.DAL\\PRN212.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Lab1 - PRN\\PRN212\\PRN212.DAL\\PRN212.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lab1 - PRN\\PRN212\\PRN212.DAL\\PRN212.DAL.csproj",
+        "projectName": "PRN212.DAL",
+        "projectPath": "E:\\Lab1 - PRN\\PRN212\\PRN212.DAL\\PRN212.DAL.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\Lab1 - PRN\\PRN212\\PRN212.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Lab1 - PRN\\PRN212\\PRN212\\PRN212.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lab1 - PRN\\PRN212\\PRN212\\PRN212.csproj",
+        "projectName": "PRN212",
+        "projectPath": "E:\\Lab1 - PRN\\PRN212\\PRN212\\PRN212.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\Lab1 - PRN\\PRN212\\PRN212\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\Lab1 - PRN\\PRN212\\PRN212.BLL\\PRN212.BLL.csproj": {
+                "projectPath": "E:\\Lab1 - PRN\\PRN212\\PRN212.BLL\\PRN212.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "MahApps.Metro.IconPacks.Material": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Office.Interop.Outlook": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Syncfusion.Calculate.Base": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.DocIO.Wpf": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Edit.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Gantt.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Grid.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Pdf.Wpf": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.PdfViewer.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Presentation.Wpf": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.PropertyGrid.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfAccordion.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfBarcode.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfBulletGraph.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfBusyIndicator.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfChart.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfChromelessWindow.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfColorPalette.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfDiagram.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfGauge.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfGrid.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfHeatMap.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfHubTile.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfImageEditor.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfInput.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfKanban.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfMaps.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfNavigationDrawer.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfProgressBar.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfRadialMenu.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfRichTextBoxAdv.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfRichTextRibbon.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfScheduler.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSkinManager.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSmithChart.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSpellChecker.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfSpreadsheet.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTextInputLayout.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTreeMap.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTreeNavigator.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.SfTreeView.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Shared.Base": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Shared.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Blend.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.FluentDark.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.FluentLight.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Lime.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialDark.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialDarkBlue.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialLight.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.MaterialLightBlue.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Metro.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2010Blue.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2010Silver.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2013DarkGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2013LightGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2013White.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2016Colorful.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2016DarkGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2016White.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019Black.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019Colorful.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019DarkGray.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019HighContrast.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office2019White.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Office365.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Saffron.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.SystemTheme.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.VisualStudio2013.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.VisualStudio2015.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Windows11Dark.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Themes.Windows11Light.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.Tools.WPF": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            },
+            "Syncfusion.XlsIO.Wpf": {
+              "target": "Package",
+              "version": "[27.1.53, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -157,3 +157,31 @@ E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\System.Composition.Conventi
 E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
 E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
 E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\appsettings.json
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\App.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\DarkORANGE.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\DarkPURPLE.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\DarkRED.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\DarkYELLOW.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\Light.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\LightGREEN.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\LightORANGE.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\LightPURPLE.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\LightRED.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Themes\LightYELLOW.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Core.dll
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\PRN212.csproj.ResolveComReference.cache
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Authentication page\LoginWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\PRN212.BLL.dll
+E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\PRN212.DAL.dll
+E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\PRN212.BLL.pdb
+E:\Lab1 - PRN\PRN212\PRN212\bin\Debug\net8.0-windows\PRN212.DAL.pdb
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Authentication page\LoginWindow.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Authentication page\RegisterWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Authentication page\RegisterWindow.baml
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Calendar Page\CalendarWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Customize Page\CustomizeWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Help page\HelperWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Home\HomeWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Settings page\SettingsWindow.g.cs
+E:\Lab1 - PRN\PRN212\PRN212\obj\Debug\net8.0-windows\Tasks page\TaskWindow.g.cs

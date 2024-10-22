@@ -12,6 +12,7 @@
           "MahApps.Metro.IconPacks.Material": "5.0.1",
           "Microsoft.Office.Interop.Outlook": "15.0.4797.1004",
           "Newtonsoft.Json": "13.0.3",
+          "PRN212.BLL": "1.0.0",
           "Syncfusion.Calculate.Base": "27.1.53",
           "Syncfusion.DocIO.Wpf": "27.1.53",
           "Syncfusion.Edit.WPF": "27.1.53",
@@ -1647,6 +1648,25 @@
             "fileVersion": "8.0.1024.46610"
           }
         }
+      },
+      "PRN212.BLL/1.0.0": {
+        "dependencies": {
+          "PRN212.DAL": "1.0.0"
+        },
+        "runtime": {
+          "PRN212.BLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PRN212.DAL/1.0.0": {
+        "runtime": {
+          "PRN212.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -2607,6 +2627,16 @@
       "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
       "path": "system.text.json/8.0.5",
       "hashPath": "system.text.json.8.0.5.nupkg.sha512"
+    },
+    "PRN212.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PRN212.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

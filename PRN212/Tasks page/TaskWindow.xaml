@@ -1,0 +1,100 @@
+﻿<Window x:Class="PRN212.Tasks_page.TaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRN212.Tasks_page"
+        mc:Ignorable="d"
+        Title="TaskWindow" Height="768" Width="1366"
+        AllowsTransparency="True"
+        Background="Transparent" 
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="301*"/>
+            <RowDefinition Height="467*"/>
+        </Grid.RowDefinitions>
+        <Border Style="{StaticResource Background}" CornerRadius="25,25,25,25" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2"/>
+
+        <Border Width="250" Style="{StaticResource SidePanelBack}" CornerRadius="25,0,25,25" HorizontalAlignment="Left" Margin="0,0,0,222"/>
+        <Grid Grid.RowSpan="2">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="174"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="\Images\profile.jpg" Width="47" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="22,16,0,0">
+                    <Image.Clip>
+                        <EllipseGeometry RadiusX="35" RadiusY="32" Center="23.5,25"/>
+                    </Image.Clip>
+                </Image>
+
+                <TextBlock x:Name="UsernameTextBlock" FontFamily="Montserrat" Text="Utilizador" Foreground="White" FontSize="16"  Margin="76,21,959,728" />
+                <TextBlock x:Name="EmailTextBlock" FontFamily="Montserrat" Text="email@exemplo.com" Style="{StaticResource TextEmail}"  Margin="76,46,955,707" />
+            </Grid>
+            <Button Click="Definições_Click" Style="{StaticResource buttonPerfil}" Margin="6,10,1130,694"/>
+        </Grid>
+
+        <Border Width="250" Style="{StaticResource SidePanelBack}" CornerRadius="0,25,25,25" HorizontalAlignment="Left" Margin="0,95,0,0" Grid.RowSpan="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="41*"/>
+                    <RowDefinition Height="632*"/>
+                </Grid.RowDefinitions>
+
+                <Button Content="Home" Style="{StaticResource button1}" Click="PáginaInicial_Click" Margin="25,26,25,597" Grid.RowSpan="2" />
+                <Icon:PackIconCodicons Kind="Home" Width="20" Height="20" Style="{StaticResource IconSide}" Margin="41,-1,0,0" Grid.Row="1"/>
+                <Button Content="Calendar" Style="{StaticResource button1}" Click="Calendário_Click" Margin="25,40,25,543" Grid.Row="1"/>
+                <Icon:PackIconCoolicons Kind="Calendar" Width="20" Height="20" Style="{StaticResource IconSide1}" Margin="41,55,0,0" Grid.Row="1"/>
+                <Button Content="Tasks" Style="{StaticResource buttonSelected}" Click="Tarefas_Click" Margin="25,94,25,489" Grid.Row="1" />
+                <Icon:PackIconFontAwesome Kind="TableListSolid" Width="20" Height="20" Style="{StaticResource IconSide2}" Margin="41,109,0,0" Grid.Row="1"/>
+                <Line X1="6" Y1="190" X2="244" Y2="190" Stroke="#4e4e4e" StrokeThickness="1" Grid.RowSpan="2"/>
+                <Button Content="Customize" Style="{StaticResource button1}" Click="Personalizar_Click" Margin="25,155,25,428" Grid.Row="1" />
+                <Icon:PackIconRemixIcon Kind="PaintFill" Width="20" Height="20" Style="{StaticResource IconSide3}" Margin="41,169,0,0" Grid.Row="1"/>
+                <Button Content="Settings" Style="{StaticResource button1}" Click="Definições_Click" Margin="25,209,25,374" Grid.Row="1" />
+                <Icon:PackIconVaadinIcons Kind="CogOutline" Width="20" Height="20" Style="{StaticResource IconSide4}" Margin="41,223,0,0" Grid.Row="1"/>
+                <Button Content="Help" Style="{StaticResource button1}" Click="Ajuda_Click" Margin="25,263,25,320" Grid.Row="1" />
+                <Icon:PackIconMaterial Kind="HelpCircleOutline" Width="20" Height="20" Style="{StaticResource IconSide5}" Margin="41,278,0,0" Grid.Row="1"/>
+                <Line X1="6" Y1="365" X2="244" Y2="365" Stroke="#4e4e4e" StrokeThickness="1" Grid.RowSpan="2"/>
+                <Button Content="Exit Application" Style="{StaticResource buttonQuit}" Margin="25,564,25,18" Click="Sair_Click" Grid.Row="1"/>
+                <Icon:PackIconUnicons Kind="SignoutLine" Width="20" Height="20" Style="{StaticResource IconSide6}" Margin="41,579,0,0" Grid.Row="1"/>
+
+            </Grid>
+        </Border>
+
+        <Border Grid.Row="0" Style="{StaticResource SidePanelBack}" CornerRadius="0,0,25,25" Margin="282,1,31,222">
+            <TextBlock TextWrapping="Wrap" Text="Completed Tasks" FontSize="25" Margin="75,24,739,21" Style="{StaticResource TextUp}" FontFamily="Montserrat"/>
+        </Border>
+        <Icon:PackIconFontAwesome Kind="TableListSolid" Width="40" Height="40" Foreground="#00f0ff" Margin="304,20,0,0"/>
+
+        <ListBox x:Name="TarefasConcluidasListBox" d:ItemsSource="{d:SampleData ItemCount=5}" Visibility="Hidden" Margin="304,124,54,66" Background="{x:Null}" BorderBrush="{x:Null}" Grid.RowSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="{Binding Cor}" BorderThickness="1" CornerRadius="15" Width="990" Height="50" HorizontalAlignment="Center" Margin="0,04">
+                        <Grid Margin="0,0,-276,0">
+                            <TextBlock Style="{StaticResource TitulosEventos}" Text="{Binding Titulo}" Margin="20,16,1036,16" />
+                            <TextBlock Style="{StaticResource TitulosPropriedadesEventos}" Text="Localização" Margin="827,8,377,26" />
+                            <TextBlock Style="{StaticResource PropriedadesEventos}" Text="{Binding Local}" Margin="827,26,270,10" />
+                            <TextBlock Style="{StaticResource TitulosPropriedadesEventos}" Text="Importância" Margin="644,8,556,29" />
+                            <TextBlock Style="{StaticResource PropriedadesEventos}" Text="{Binding Importancia}" Margin="644,26,437,11" />
+                            <TextBlock Style="{StaticResource TitulosPropriedadesEventos}" Text="Data" Margin="233,9,1005,27"/>
+                            <TextBlock Style="{StaticResource TitulosPropriedadesEventos}" Text="Hora" Margin="233,25,1005,12"/>
+                            <TextBlock Style="{StaticResource PropriedadesEventos}" Text="{Binding DataInicioFormatada}" Margin="275,9,880,28" />
+                            <TextBlock Style="{StaticResource PropriedadesEventos}" Text="{Binding HoraInicioFormatada}" Margin="275,26,880,11" />
+                            <TextBlock Style="{StaticResource TitulosPropriedadesEventos}" Text="Data" Margin="438,9,799,27"/>
+                            <TextBlock Style="{StaticResource TitulosPropriedadesEventos}" Text="Hora" Margin="438,26,799,11"/>
+                            <TextBlock Style="{StaticResource PropriedadesEventos}" Text="{Binding DataFimFormatada}" Margin="477,9,687,28" />
+                            <TextBlock Style="{StaticResource PropriedadesEventos}" Text="{Binding HoraFimFormatada}" Margin="477,26,687,11" />
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>
+

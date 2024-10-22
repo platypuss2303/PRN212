@@ -7,13 +7,99 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Authentication page\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Authentication page\RegisterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Calendar Page\CalendarWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Customize Page\CustomizeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Help page\HelperWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home\AddTaskWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home\HomeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings page\SettingsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Tasks page\TaskWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Authentication page\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Authentication page\RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Calendar Page\CalendarWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Customize Page\CustomizeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Help page\HelperWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home\AddTaskWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home\HomeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings page\SettingsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tasks page\TaskWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\Dark.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\DarkGreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkORANGE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkPURPLE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkRED.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkYELLOW.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Light.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightGREEN.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightORANGE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightPURPLE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightRED.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightYELLOW.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

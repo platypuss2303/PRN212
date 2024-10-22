@@ -1,0 +1,16 @@
+E:\Lab1 - PRN\PRN212\PRN212.BLL\bin\Debug\net8.0\PRN212.BLL.deps.json
+E:\Lab1 - PRN\PRN212\PRN212.BLL\bin\Debug\net8.0\PRN212.BLL.dll
+E:\Lab1 - PRN\PRN212\PRN212.BLL\bin\Debug\net8.0\PRN212.BLL.pdb
+E:\Lab1 - PRN\PRN212\PRN212.BLL\bin\Debug\net8.0\PRN212.DAL.dll
+E:\Lab1 - PRN\PRN212\PRN212.BLL\bin\Debug\net8.0\PRN212.DAL.pdb
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.csproj.AssemblyReference.cache
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.AssemblyInfoInputs.cache
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.AssemblyInfo.cs
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.csproj.CoreCompileInputs.cache
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.sourcelink.json
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.csproj.Up2Date
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.dll
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\refint\PRN212.BLL.dll
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\PRN212.BLL.pdb
+E:\Lab1 - PRN\PRN212\PRN212.BLL\obj\Debug\net8.0\ref\PRN212.BLL.dll
