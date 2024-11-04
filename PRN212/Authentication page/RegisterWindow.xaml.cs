@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json;
+using PRN212.BLL.Services;
+using PRN212.DAL.Models;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
@@ -10,14 +12,7 @@ namespace PRN212.Authentication_page
     /// </summary>
     public partial class RegisterWindow : Window
     {
-        public class UserData
-        {
-            public string Id { get; set; }
-            public string Username { get; set; }
-            public string Email { get; set; }
-            public string Password { get; set; }
-            public string Tema { get; set; }
-        }
+        private UserService _service = new();
 
         public RegisterWindow()
         {
@@ -50,15 +45,53 @@ namespace PRN212.Authentication_page
 
         private void Registar_Btn_Click(object sender, RoutedEventArgs e)
         {
+            // Get the values from the input fields
+            string usernameInput = username.Text.Trim();
+            string emailInput = email.Text.Trim();
+            string passwordInput = password.Password;
+
+            // Validate the email format
+            if (!IsValidEmail(emailInput))
+            {
+                MessageBox.Show("Please enter a valid email address.", "Invalid Email", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Check if the username or password fields are empty
+            if (string.IsNullOrEmpty(usernameInput) || string.IsNullOrEmpty(passwordInput))
+            {
+                MessageBox.Show("Username and password cannot be empty.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Create a new user object
+            var newUser = new User
+            {
+                Id = Guid.NewGuid(), 
+                Username = usernameInput,
+                Email = emailInput,
+                Theme = "Default", 
+            };
+
+            // Hash the password before storing it
+            //newUser.SetPassword(passwordInput);
+
+            bool isRegistered = _service.CheckUserExist(newUser);
+
+            if (isRegistered)
+            {
+                MessageBox.Show("Registration successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                LoginWindow loginWindow = new LoginWindow();
+                this.Close();
+                loginWindow.Show();
+            }
+            else
+            {
+                MessageBox.Show("Registration failed. Username or email may already be in use.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
-        private void txtEmail_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-            if (!string.IsNullOrEmpty(email.Text) && email.Text.Length > 0)
-                textEmail.Visibility = Visibility.Collapsed;
-            else
-                textEmail.Visibility = Visibility.Visible;
-        }
+        
 
         private void textEmail_MouseDown(object sender, MouseButtonEventArgs e)
         {

@@ -1,4 +1,8 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
+using PRN212.BLL.Services;
+using PRN212.DAL.Models;
+using PRN212.Home;
 using PRN212.Themes;
 using System.Windows;
 using System.Windows.Input;
@@ -10,12 +14,12 @@ namespace PRN212.Authentication_page
     /// </summary>
     public partial class LoginWindow : Window
     {
+        private UserService _service = new();
         public LoginWindow()
         {
             InitializeComponent();
         }
 
-        // Click to close.img to close window
         private void Image_MouseUp(object sender, MouseButtonEventArgs e)
         {
             Application.Current.Shutdown();
@@ -30,9 +34,9 @@ namespace PRN212.Authentication_page
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrEmpty(password.Password) && password.Password.Length > 0)
-                textPassword.Visibility = Visibility.Collapsed;
+                PasswordTextBox.Visibility = Visibility.Collapsed;
             else
-                textPassword.Visibility = Visibility.Visible;
+                PasswordTextBox.Visibility = Visibility.Visible;
         }
 
         private void textPassword_MouseDown(object sender, MouseButtonEventArgs e)
@@ -42,16 +46,20 @@ namespace PRN212.Authentication_page
 
         private void Login_Btn_Click(object sender, RoutedEventArgs e)
         {
-            
+            if(EmailAddressTextBox.Text.IsNullOrEmpty() || PasswordTextBox.Text.IsNullOrEmpty())
+            {
+                MessageBox.Show("Invalid email or password", "Wrong", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            User? account = _service.GetOne(EmailAddressTextBox.Text, PasswordTextBox.Text);
+            HomeWindow h = new();
+            //m.CurrentAccount = account;
+            h.Show();
+            this.Hide();
         }
 
-        private void txtEmail_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-            if (!string.IsNullOrEmpty(email.Text) && email.Text.Length > 0)
-                textEmail.Visibility = Visibility.Collapsed;
-            else
-                textEmail.Visibility = Visibility.Visible;
-        }
+        
 
         private void textEmail_MouseDown(object sender, MouseButtonEventArgs e)
         {

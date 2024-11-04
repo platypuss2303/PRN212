@@ -47,7 +47,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown" Text="E-mail" Style="{StaticResource textHint}" />
+                        <TextBlock x:Name="EmailAddressTextBox" MouseDown="textEmail_MouseDown" Text="E-mail" Style="{StaticResource textHint}" />
                         <TextBox x:Name="email" TextChanged="txtEmail_TextChanged" Style="{StaticResource textBox}" />
                     </Grid>
                 </Border>
@@ -59,7 +59,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <TextBlock x:Name="textPassword" MouseDown="textPassword_MouseDown" Text="Password" Style="{StaticResource textHint}" />
+                        <TextBlock x:Name="PasswordTextBox" MouseDown="textPassword_MouseDown" Text="Password" Style="{StaticResource textHint}" />
                         <PasswordBox x:Name="password" PasswordChanged="PasswordBox_PasswordChanged" Style="{StaticResource textBox}" />
                     </Grid>
                 </Border>

@@ -127,7 +127,7 @@ namespace PRN212.Settings_page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN212;V1.0.0.0;component/settings%20page/settingswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN212;component/settings%20page/settingswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Settings page\SettingsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

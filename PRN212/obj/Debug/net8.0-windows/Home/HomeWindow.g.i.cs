@@ -163,7 +163,7 @@ namespace PRN212.Home {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN212;V1.0.0.0;component/home/homewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN212;component/home/homewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Home\HomeWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -109,7 +109,7 @@ namespace PRN212.Authentication_page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN212;V1.0.0.0;component/authentication%20page/registerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN212;component/authentication%20page/registerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Authentication page\RegisterWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

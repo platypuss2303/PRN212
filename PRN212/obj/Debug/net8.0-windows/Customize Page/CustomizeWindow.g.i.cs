@@ -103,7 +103,7 @@ namespace PRN212.Customize_Page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN212;V1.0.0.0;component/customize%20page/customizewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN212;component/customize%20page/customizewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Customize Page\CustomizeWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

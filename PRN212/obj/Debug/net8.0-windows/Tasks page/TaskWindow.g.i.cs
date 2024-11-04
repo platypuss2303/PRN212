@@ -79,7 +79,7 @@ namespace PRN212.Tasks_page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN212;V1.0.0.0;component/tasks%20page/taskwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN212;component/tasks%20page/taskwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Tasks page\TaskWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

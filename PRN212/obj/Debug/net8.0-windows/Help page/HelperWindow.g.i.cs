@@ -111,7 +111,7 @@ namespace PRN212.Help_page {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PRN212;V1.0.0.0;component/help%20page/helperwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PRN212;component/help%20page/helperwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Help page\HelperWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
