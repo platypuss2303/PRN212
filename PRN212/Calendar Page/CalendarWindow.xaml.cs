@@ -1,5 +1,8 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using PRN212.BLL.Services;
 using PRN212.Customize_Page;
+using PRN212.DAL.Models;
 using PRN212.Help_page;
 using PRN212.Home;
 using PRN212.Settings_page;
@@ -8,7 +11,6 @@ using Syncfusion.UI.Xaml.Scheduler;
 using System.Collections.ObjectModel;
 using System.Net;
 using System.Net.Mail;
-using System.Security.AccessControl;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -25,13 +27,17 @@ namespace PRN212.Calendar_Page
 
         public ScheduleAppointment SelectedAppointment { get; set; }
 
+        public User CurrentUser { get; set; }
+
+        private TaskService _service = new TaskService();
+
         public DateTime? SelectedCellDateTime { get; set; }
         public CalendarWindow()
         {
             InitializeComponent();
 
-            UsernameTextBlock.Text = CurrentUser.User.Username;
-            EmailTextBlock.Text = CurrentUser.User.Email;
+            UsernameTextBlock.Text = CurrentUser.Username;
+            EmailTextBlock.Text = CurrentUser.Email;
 
             Calendar.AppointmentDeleting += Calendar_AppointmentDeleting;
             Calendar.ReminderAlertOpening += Scheduler_ReminderAlertOpening;
@@ -112,11 +118,11 @@ namespace PRN212.Calendar_Page
         {
             
         }
-        
-        //public List<Event> ShowEvents()
-        //{
-        //    return event;
-        //}
+
+        public List<DAL.Models.Task> ShowTask()
+        {
+
+        }
 
         private ObservableCollection<SchedulerReminder> ConverterLembretes(ObservableCollection<Reminder> reminders)
         {
@@ -135,44 +141,52 @@ namespace PRN212.Calendar_Page
             return schedulerReminders;
         }
 
-        //private void UploadEventsInCalendar()
-        //{
-        //    Appointments.Clear();
+        private void UploadEventsInCalendar()
+        {
+            Appointments.Clear();
 
-        //    foreach (var evento in eventos)
-        //    {
-        //        ObservableCollection<SchedulerReminder> schedulerReminders = new ObservableCollection<SchedulerReminder>();
+            // Sử dụng TaskService để lấy tất cả các sự kiện
+            var taskService = new TaskService();
+            var tasks = taskService.GetAllTasks(); // Lấy danh sách các sự kiện từ cơ sở dữ liệu
 
-        //        if (evento.Reminders != null)
-        //        {
-        //            foreach (var reminder in evento.Reminders)
-        //            {
-        //                schedulerReminders.Add(new SchedulerReminder
-        //                {
-        //                    IsDismissed = reminder.Dismissed,
-        //                    ReminderTimeInterval = reminder.TimeInterval
-        //                });
-        //            }
-        //        }
+            foreach (var task in tasks)
+            {
+                ObservableCollection<SchedulerReminder> schedulerReminders = new ObservableCollection<SchedulerReminder>();
 
-        //        ScheduleAppointment appointment = new ScheduleAppointment
-        //        {
-        //            Id = evento.Id,
-        //            Subject = evento.Titulo,
-        //            Location = evento.Local,
-        //            Notes = evento.Descrição,
-        //            StartTime = evento.DataInicio,
-        //            EndTime = evento.DataFim,
-        //            IsAllDay = evento.AllDay,
-        //            AppointmentBackground = evento.Cor,
-        //            Foreground = evento.CorTexto,
-        //            Reminders = schedulerReminders,
-        //            RecurrenceRule = evento.RecurrenceRule
-        //        };
+                if (task.Reminders != null)
+                {
+                    foreach (var reminder in task.Reminders)
+                    {
+                        schedulerReminders.Add(new SchedulerReminder
+                        {
+                            IsDismissed = reminder.Dismissed,
+                            ReminderTimeInterval = reminder.TimeInterval
+                        });
+                    }
+                }
 
-        //        Appointments.Add(appointment);
-        //    }
-        //}
+                var brushConverter = new BrushConverter();
+                var appointmentBackground = (Brush)brushConverter.ConvertFromString(task.Color);
+                var foreground = (Brush)brushConverter.ConvertFromString(task.TextColor);
+
+                ScheduleAppointment appointment = new ScheduleAppointment
+                {
+                    Id = task.Id,
+                    Subject = task.Title,
+                    Location = task.Location,
+                    Notes = task.Description,
+                    StartTime = task.StartDate,
+                    EndTime = task.EndDate,
+                    IsAllDay = task.AllDay,
+                    AppointmentBackground = appointmentBackground,
+                    Foreground = foreground,
+                    Reminders = schedulerReminders,
+                    RecurrenceRule = task.RecurrenceRule
+                };
+
+                Appointments.Add(appointment);
+            }
+        }
 
         //private void Calendar_AppointmentEditorClosing(object sender, Syncfusion.UI.Xaml.Scheduler.AppointmentEditorClosingEventArgs e)
         //{
@@ -232,24 +246,24 @@ namespace PRN212.Calendar_Page
         //    }
         //}
 
-        //private void Calendar_AppointmentDeleting(object sender, Syncfusion.UI.Xaml.Scheduler.AppointmentDeletingEventArgs e)
-        //{
-        //    if (e.Appointment != null)
-        //    {
-        //        // Encontra o evento correspondente na lista
-        //        var evento = eventos.FirstOrDefault(x => x.Id == (int)e.Appointment.Id);
+        private void Calendar_AppointmentDeleting(object sender, Syncfusion.UI.Xaml.Scheduler.AppointmentDeletingEventArgs e)
+        {
+            if (e.Appointment != null)
+            {
+                var appointmentId = (int)e.Appointment.Id;
 
-        //        if (evento != null)
-        //        {
-        //            // Remove o evento da lista
-        //            eventos.Remove(evento);
-        //        }
+               var taskToDelete =  _service.FindTask(appointmentId);
 
-        //        MostrarEventos();
-        //        SalvarEventos();
-        //        CarregarEventosNoCalendario();
-        //    }
-        //}
+                if (taskToDelete != null)
+                {
+                    _service.RemoveTask(taskToDelete);
+                }
+
+                LoadEvents();
+                ShowEvents();
+                UploadEventsInCalendar();
+            }
+        }
 
 
         //private ScheduleAppointment draggedAppointment;

@@ -39,7 +39,7 @@ public partial class Task
 
     public int? Importance { get; set; }
 
-    public string? Reminders { get; set; }
+    public string[]? Reminders { get; set; }
 
     public string? RecurrenceRule { get; set; }
 

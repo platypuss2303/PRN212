@@ -54,7 +54,7 @@ namespace PRN212.Authentication_page
 
             User? account = _service.GetOne(EmailAddressTextBox.Text, PasswordTextBox.Text);
             HomeWindow h = new();
-            //m.CurrentAccount = account;
+            h.CurrentUser = account;
             h.Show();
             this.Hide();
         }

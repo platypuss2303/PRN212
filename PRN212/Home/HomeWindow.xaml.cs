@@ -19,6 +19,7 @@ namespace PRN212.Home
     /// </summary>
     public partial class HomeWindow : Window
     {
+        public User CurrentUser { get; set; }
         public HomeWindow()
         {
             InitializeComponent();

@@ -36,6 +36,11 @@ namespace PRN212.DAL.Repositories
             _context.SaveChanges();
         }
 
+        public async Task<DAL.Models.Task?> FindAsync(int id)
+        {
+            return await _context.Tasks.FindAsync(id);
+        }
+
 
 
     }
