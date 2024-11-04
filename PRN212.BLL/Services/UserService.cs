@@ -19,5 +19,12 @@ namespace PRN212.BLL.Services
         public void AddUser(User user) { 
             _repo.Add(user);
         }
+        public void UpdateUser(User user) {
+            _repo.Update(user);
+        }
+        public User? GetUserByEmail(string email)
+        {
+           return _repo.GetUserByEmail(email);
+        }
     }
 }

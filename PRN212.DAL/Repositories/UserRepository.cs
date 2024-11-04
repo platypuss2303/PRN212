@@ -16,6 +16,17 @@ namespace PRN212.DAL.Repositories
             _context = new ToDoAppDbContext();
             return _context.Users.FirstOrDefault(x => x.Email.ToLower() == email.ToLower() && x.Password == password); ;
         }
+        public User? GetUserByEmail(string email)
+        {
+            _context = new ToDoAppDbContext();
+            return _context.Users.Where(u=>u.Email== email).FirstOrDefault();
+        }
+        public void Update(User user)
+        {
+            _context = new ToDoAppDbContext();
+            _context.Users.Update(user);
+            _context.SaveChanges();
+        }
 
         public bool CheckUser(User user)
         {
