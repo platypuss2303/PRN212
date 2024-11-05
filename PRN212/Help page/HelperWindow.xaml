@@ -41,21 +41,21 @@
                     <RowDefinition Height="632*"/>
                 </Grid.RowDefinitions>
 
-                <Button Content="Home" Style="{StaticResource button1}"  Click="PáginaInicial_Click" Margin="25,26,25,597" Grid.RowSpan="2" />
+                <Button Content="Home" Style="{StaticResource button1}"  Click="Home_Click" Margin="25,26,25,597" Grid.RowSpan="2" />
                 <Icon:PackIconCodicons Kind="Home" Width="20" Height="20" Style="{StaticResource IconSide}" Margin="41,-1,0,0" Grid.Row="1"/>
-                <Button Content="Calendar" Style="{StaticResource button1}" Click="Calendário_Click" Margin="25,40,25,543" Grid.Row="1"/>
+                <Button Content="Calendar" Style="{StaticResource button1}" Click="Calendar_Click" Margin="25,40,25,543" Grid.Row="1"/>
                 <Icon:PackIconCoolicons Kind="Calendar" Width="20" Height="20" Style="{StaticResource IconSide1}" Margin="41,55,0,0" Grid.Row="1"/>
-                <Button Content="Tasks" Style="{StaticResource button1}" Click="Tarefas_Click" Margin="25,94,25,489" Grid.Row="1" />
+                <Button Content="Tasks" Style="{StaticResource button1}" Click="TaskWindow_Click" Margin="25,94,25,489" Grid.Row="1" />
                 <Icon:PackIconFontAwesome Kind="TableListSolid" Width="20" Height="20" Style="{StaticResource IconSide2}" Margin="41,109,0,0" Grid.Row="1"/>
                 <Line X1="6" Y1="190" X2="244" Y2="190" Stroke="#4e4e4e" StrokeThickness="1" Grid.RowSpan="2"/>
-                <Button Content="Customize" Style="{StaticResource button1}" Click="Personalizar_Click" Margin="25,155,25,428" Grid.Row="1" />
+                <Button Content="Customize" Style="{StaticResource button1}" Click="Customize_Click" Margin="25,155,25,428" Grid.Row="1" />
                 <Icon:PackIconRemixIcon Kind="PaintFill" Width="20" Height="20" Style="{StaticResource IconSide3}" Margin="41,169,0,0" Grid.Row="1"/>
-                <Button Content="Settings" Style="{StaticResource button1}" Click="Definições_Click" Margin="25,209,25,374" Grid.Row="1" />
+                <Button Content="Settings" Style="{StaticResource button1}" Click="SettingWindow_Click" Margin="25,209,25,374" Grid.Row="1" />
                 <Icon:PackIconVaadinIcons Kind="CogOutline" Width="20" Height="20" Style="{StaticResource IconSide4}" Margin="41,223,0,0" Grid.Row="1"/>
-                <Button Content="Help" Style="{StaticResource buttonSelected}" Click="Ajuda_Click" Margin="25,263,25,320" Grid.Row="1" />
+                <Button Content="Help" Style="{StaticResource buttonSelected}" Click="HelpWindow_Click" Margin="25,263,25,320" Grid.Row="1" />
                 <Icon:PackIconMaterial Kind="HelpCircleOutline" Width="20" Height="20" Style="{StaticResource IconSide5}" Margin="41,278,0,0" Grid.Row="1"/>
                 <Line X1="6" Y1="365" X2="244" Y2="365" Stroke="#4e4e4e" StrokeThickness="1" Grid.RowSpan="2"/>
-                <Button Content="Exit Application" Style="{StaticResource buttonQuit}" Margin="25,564,25,18" Click="Sair_Click" Grid.Row="1"/>
+                <Button Content="Exit Application" Style="{StaticResource buttonQuit}" Margin="25,564,25,18" Click="Exit_Click" Grid.Row="1"/>
                 <Icon:PackIconUnicons Kind="SignoutLine"  Width="20" Height="20" Style="{StaticResource IconSide6}" Margin="41,579,0,0" Grid.Row="1"/>
             </Grid>
         </Border>

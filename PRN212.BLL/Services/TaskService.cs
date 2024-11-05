@@ -8,7 +8,7 @@ namespace PRN212.BLL.Services
         private TaskRepository _repo = new TaskRepository();
 
         public List<DAL.Models.Task> GetAllTasks() => _repo.GetTasks();
-
+        public List<DAL.Models.Task> GetTaskById(Guid id) => _repo.GetTaskById(id);
         public void RemoveTask(DAL.Models.Task task)
         {
             _repo.DeleteTask(task); 
